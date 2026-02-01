@@ -6,7 +6,6 @@ public class LowerBound {
         System.out.println(lowerBound(arr,11));
     }
     static int lowerBound(int[] arr, int target) {
-        // code here
         int low = 0;
         int high = arr.length-1;
         int ans = arr.length;
